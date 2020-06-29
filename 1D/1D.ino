@@ -1,0 +1,155 @@
+int Bot=0;
+void setup() {
+pinMode(2,INPUT);
+pinMode(3,OUTPUT);
+pinMode(4,OUTPUT);
+pinMode(5,OUTPUT);
+pinMode(6,OUTPUT);
+pinMode(7,OUTPUT);
+pinMode(8,OUTPUT);
+pinMode(9,OUTPUT);
+pinMode(10,OUTPUT);
+}
+void loop() {
+Bot=digitalRead(2);
+
+if(Bot==HIGH){
+Secuencia0();
+}
+
+
+}
+void Secuencia0(){
+delay(500);
+digitalWrite(10,LOW);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(3,HIGH);
+  Bot=digitalRead(2);
+  if(Bot==HIGH){
+apagado();
+}
+delay(500);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(3,LOW);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(4,HIGH);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+delay(100); 
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(4,LOW);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(5,HIGH);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+delay(100);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(5,LOW);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(6,HIGH);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+delay(100);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(6,LOW);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(7,HIGH);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+delay(100);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(7,LOW);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(8,HIGH);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+delay(100);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(8,LOW);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(9,HIGH);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+delay(100);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(9,LOW);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+digitalWrite(10,HIGH);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+delay(100);
+  Bot=digitalRead(2);
+  if(Bot==LOW){
+apagado();
+}
+}
+void apagado(){
+digitalWrite(3,LOW);
+digitalWrite(4,LOW);
+digitalWrite(5,LOW);
+digitalWrite(6,LOW);
+digitalWrite(7,LOW);
+digitalWrite(8,LOW);
+digitalWrite(9,LOW);
+digitalWrite(10,LOW);
+  
+}

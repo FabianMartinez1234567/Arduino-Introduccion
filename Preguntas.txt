@@ -1,0 +1,5 @@
+A) informe del trabajo a realizar (resumen, introducción, descripción y conclusiones) una carilla.
+B) la totalidad de los programas realizados en soporte papel (cinco en esta práctica)
+C) los dibujos esquemáticos en salida proteus 8 con nombre y apellido.
+D) para esta práctica los trabajos son personales
+E) la totalidad de los programas funcionales en la computadora
