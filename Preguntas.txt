@@ -1,5 +1,10 @@
-A) informe del trabajo a realizar (resumen, introducción, descripción y conclusiones) una carilla.
-B) la totalidad de los programas realizados en soporte papel (cinco en esta práctica)
-C) los dibujos esquemáticos en salida proteus 8 con nombre y apellido.
-D) para esta práctica los trabajos son personales
-E) la totalidad de los programas funcionales en la computadora
+1-a) Auto fantástico de 4 luces
+Un único movimiento de abajo hacia arriba con 4 luces.
+1.b) Auto fantástico de 4 luces y doble sentido
+La secuencia será 1.2.3.4  3.2.1.4
+1.c) Auto fantástico de 8 luces.
+Un único movimiento de abajo hacia arriba.
+1.d) Auto fantástico solo si se presiona un botón.
+Solo se inicia la secuencia si se aprieta un botón y se mantiene apretado
+1.e) Auto fantástico con 2 botones
+Primer botón inicia secuencia hacia arriba segundo botón hacia abajo, deben mantenerse apretados los botones para mantener la secuencia.
